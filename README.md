@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Link](https://to-do-app-vanilla-fas.netlify.app/)
+- Live Site URL: [Link](https://rating-component-react-f.netlify.app/)
 
 ## My process
 
