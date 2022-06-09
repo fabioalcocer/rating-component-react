@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  --bg-color: #121417;
+  --main-color: #1f2630;
+  --shadow-color: #252d37;
+  --white: #ffffff;
+  --primary-color: #fc7614;
+  --text-color: hsl(217, 12%, 63%);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 0 10px;
+  background-color: var(--bg-color);
+  font-family: "Overpass", sans-serif;
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,33 @@
+.message-card {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  background: radial-gradient(#232a34, #181e27);
+}
+
+.message__text {
+  color: var(--text-color);
+}
+
+.message__rating {
+  padding: 0.7rem 1rem;
+  border-radius: 20px;
+  background: #323a48;
+  color: #fb7413;
+}
+
+.animate-aos {
+  position: fixed;
+  z-index: 1;
+}

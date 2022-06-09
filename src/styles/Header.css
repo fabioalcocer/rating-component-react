@@ -1,0 +1,19 @@
+.container__img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--shadow-color);
+}
+
+.container__img img {
+  width: 40%;
+}
+
+.container__paragraph {
+  line-height: 1.5;
+  color: var(--text-color);
+}
